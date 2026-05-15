@@ -3,7 +3,7 @@ world.gravity.y = 10;
 
 let ball = new Sprite();
 ball.diameter = 50;
-ball.img = '';
+ball.img = '😊';
 
 let groundA = new Sprite();
 groundA.x = -120;
