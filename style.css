@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url('images/pagebackground.png') center/cover no-repeat, #9d44e6;
+  font-family: 'Courier New', monospace;
+  color: rgb(255, 186, 240);
+}
+
+h1 {
+  font-size: 36px;
+  margin: 10px;
+}
+
+#info {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+#score {
+  font-size: 22px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+canvas {
+  background: rgb(255, 186, 240);
+  border: 2px solid white;
+}
