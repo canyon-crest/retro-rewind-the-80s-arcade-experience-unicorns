@@ -1,19 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8" />
-  <title>Twilight Sparkle Snake</title>
-
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <title>Twilight Sparkle Snake</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1>Twilight Sparkle Yummy</h1>
+    <div id="info">Press your arrow keys to help your pony get magic !!!</div>
+    
+    <div id="character-select">
+        <label for="ponySelect">Choose your pony: </label>
+        <select id="ponySelect">
+            <option value="images/twilight.png">Twilight Sparkle</option>
+            <option value="images/rainbowdash.png">Rainbow Dash</option>
+            <option value="images/pinkie.png">Pinkie Pie</option>
+            <option value="images/fluttershy.png">Fluttershy</option>
+        </select>
+    </div>
 
-  <h1>Twilight Sparkle Yummy</h1>
-  <div id="info">Press your arrow keys to help your pony get magic !!!</div>
-  <div id="score">Score: 0</div>
-  <canvas id="game" width="400" height="400"></canvas>
-
-  <script src="game.js"></script>
-
+    <div id="score">Score: 0</div>
+    <canvas id="game" width="400" height="400"></canvas>
+    <script src="game.js"></script>
 </body>
 </html>
